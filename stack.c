@@ -5,12 +5,11 @@
 int main()
 {
   int top=-1,size;
-  int push;
   printf("Enter the stack size:");
   scanf("%d",&size);
   int stack[size];
   
-  int choice,n,op=1,rem;
+  int choice,n,op=1;
   while(op!=2)
   {
   printf("\n1 for push\n2 for pop\n3 for display");
@@ -56,6 +55,7 @@ int main()
     	}
   	}
  	break;
+	  
  	case 3:
      printf("\nStack elements:");
           for(int i=0;i<top+1;i++)
